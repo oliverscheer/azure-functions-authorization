@@ -1,0 +1,37 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+@baseurl=http://localhost:7170/api
+@value1=12
+@value2=3
+
+### Add two numbers 
+GET {{baseurl}}/Add
+
+{
+  "value1": {{value1}},
+  "value2": {{value2}}
+}
+
+### Subtract two numbers
+GET {{baseurl}}/Subtract
+
+{
+  "value1": {{value1}},
+  "value2": {{value2}}
+}
+
+### Divide two numbers
+GET {{baseurl}}/Divide
+
+{
+  "value1": {{value1}},
+  "value2": {{value2}}
+}
+
+### Multiply two numbers
+GET {{baseurl}}/Multiply
+
+{
+  "value1": {{value1}},
+  "value2": {{value2}}
+}

@@ -1,0 +1,50 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+@baseurl=https://app-function-oliver.azurewebsites.net/api
+
+@value1=12
+@value2=3
+
+### Add two numbers 
+GET {{baseurl}}/Add
+
+{
+  "value1": {{value1}},
+  "value2": {{value2}}
+}
+
+### Subtract two numbers
+GET {{baseurl}}/Subtract?code=qClKftNSFpuSNiK_LWsmAwUv9q_8w6L04Ruik-8gJVDhAzFu1hIqlQ==
+
+{
+  "value1": {{value1}},
+  "value2": {{value2}}
+}
+
+### Subtract two numbers
+GET {{baseurl}}/Subtract
+x-functions-key: qClKftNSFpuSNiK_LWsmAwUv9q_8w6L04Ruik-8gJVDhAzFu1hIqlQ==
+
+{
+  "value1": {{value1}},
+  "value2": {{value2}}
+}
+
+
+### Divide two numbers
+GET {{baseurl}}/Divide
+x-functions-key: WoVQfvKU39ggO-08_R7CzI14KBYTuufSGsPtRHRabhEHAzFuoF7hvA==
+
+{
+  "value1": {{value1}},
+  "value2": {{value2}}
+}
+
+### Multiply two numbers
+GET {{baseurl}}/Multiply
+x-functions-key: ey1nOdSP5gIS_0WwQMiJavcSIkdRdzFU63U-m64zIpoGAzFu6bXV1w==
+
+{
+  "value1": {{value1}},
+  "value2": {{value2}}
+}
