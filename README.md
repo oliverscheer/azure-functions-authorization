@@ -7,6 +7,7 @@ with social accounts like Google, Facebook, and Twitter.
 ## Problem
 
 Get the user's identity and use it to authorize the user to access the Azure Function.
+Because it just doesn't work as expected, like in ASP.NET Core web applications.
 
 ## Solution
 
