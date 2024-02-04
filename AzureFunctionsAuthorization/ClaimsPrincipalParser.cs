@@ -9,8 +9,6 @@ namespace AzureFunctionsAuthorization
     {
         public static ClaimsPrincipal? ParseFromRequest(HttpRequest req)
         {
-            //ClaimsPrincipalParserResult result = new();
-
             if (!req.Headers.TryGetValue("Authorization", out StringValues authorizationHeader))
             {
                 return null;

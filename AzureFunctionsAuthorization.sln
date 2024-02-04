@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionsAuthorization", "AzureFunctionsAuthorization\AzureFunctionsAuthorization.csproj", "{9FEC02D2-0DDC-4602-942E-89C06E8F9370}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{B9CD897C-DBE0-4135-A3C0-4F54102FD893}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
